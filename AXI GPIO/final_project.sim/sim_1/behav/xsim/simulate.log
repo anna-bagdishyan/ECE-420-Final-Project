@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+
+TEST PASSED
+$finish called at time : 20768 ns : File "D:/ECE420/PROJECTS/final_project/final_project.srcs/sim_1/imports/new/testbench.vhd" Line 307

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Apr 30 15:44:08 2026
+# Process ID: 11120
+# Current directory: D:/ECE420/PROJECTS/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7564 D:\ECE420\PROJECTS\final_project\final_project.xpr
+# Log file: D:/ECE420/PROJECTS/final_project/vivado.log
+# Journal file: D:/ECE420/PROJECTS/final_project\vivado.jou
+# Running On: DESKTOP-1VHPKIN, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 34263 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/ECE420/PROJECTS/final_project/final_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/ECE420/PROJECTS/final_project/testbench_behav.wcfg
+source testbench.tcl
+reset_project
+close_sim
